@@ -27,7 +27,7 @@ public class EmployeeDao {
 		 {
 		 
 			 InputStream is = 
-					 this.getClass().getClassLoader().getResourceAsStream("dev-db.properties");
+					 this.getClass().getClassLoader().getResourceAsStream("prod-db2.properties");
 			 
 			    Properties dbProps = new Properties();
 			    dbProps.load(is);
